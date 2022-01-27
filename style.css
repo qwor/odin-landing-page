@@ -1,0 +1,156 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+header, footer {
+    background-color: #1f2937;
+}
+p, a, #present-right, footer, button {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+#header-main-text, #logo, button {
+    color: #f9faf8;
+}
+#header-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    margin:0;
+    padding: 0;
+}
+#logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    padding-left: 14%;
+    padding-right: 14%;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    height: 32rem;
+}
+#header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+a {
+    text-decoration: none;
+}
+#header-bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#header-present {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+#present-left, #present-right {
+    flex: 1;
+}
+#header-secondary-text {
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+#present-right {
+    background-color: #707783;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: #3882f6;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border: none;
+    border-radius: 8px;
+}
+#signup-btn-2 {
+    border: 2px solid white;
+}
+
+#info-header {
+    text-align: center;
+    margin: 3rem;
+    display: block;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+}
+#cards {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+.card {
+    width: 10rem;
+}
+.card-img {
+    height: 10rem;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+.card > div {
+    margin-top: 0.5rem;
+    color: #1f2937;
+    font-size: 16px;
+}
+#quote {
+    background-color: #e5e7eb;
+    padding: 4rem 17.8%;
+}
+blockquote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+figcaption {
+    color: #1f2937;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: right;
+    margin-right: 6rem;
+}
+#blue-signup {
+    margin: 5rem 0;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 3rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left-signup > h3 {
+    color: #e5e7eb;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+#left-signup > p {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    padding: 2rem;
+    text-align: center;
+}
